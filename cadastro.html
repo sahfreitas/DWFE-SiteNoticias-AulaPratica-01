@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site de Notícias</title>
-    <link rel="stylesheet" href="./assets/css/login/estilo.css">
-    <script src="./assets/js/login.js"></script>
+    <link rel="stylesheet" href="./assets/css/cadastro/estilo.css">
 </head>
 
 <body>
@@ -17,23 +16,23 @@
         </header>
         <div class="overlay">
             <section class="modal">
-                <h1>Login</h1>
+                <h1>Cadastre-se</h1>
                 <form>
+                    <label>Nome</label>
+                    <input id="nome" type="text" placeholder="Informe seu nome">
                     <label>E-mail</label>
                     <input id="email" type="text" placeholder="Informe seu e-mail">
                     <label>Senha</label>
                     <input id="senha" type="password" placeholder="Informe sua senha">
-                    <p class="esqueceu-container">
-                        <a href="#" class="esqueceu">Esqueceu sua senha?</a>
-                    </p>
-                    <button onclick="verificarCredenciais(); return false;">Entrar</button>
+
+                    <button>Entrar</button>
 
                     <div class="divider">
                         <div class="divider-line"></div>
                         <span class="divider-text">ou</span>
                         <div class="divider-line"></div>
                     </div>
-                    <p class="cadastro-link">Não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+                    <p class="cadastro-link">Já tem uma conta? <a href="index.html">Login</a></p>
                 </form>
             </section>
         </div>
